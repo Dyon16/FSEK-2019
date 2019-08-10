@@ -31,7 +31,7 @@ while True:
             m2.run_to_rel_pos(position_sp=250, speed_sp=200)
         m1.stop(stop_action="brake")
         m2.stop(stop_action="brake")
-        m3.run_to_rel_pos(position_sp=-250, speed_sp=200)
+        m3.run_to_rel_pos(position_sp=-700, speed_sp=200)
         time.sleep(10)
 
 
